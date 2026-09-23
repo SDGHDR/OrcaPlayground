@@ -63,6 +63,13 @@ args = [ "-m", "examples.embodied.g1.run_g1_sim",]
 description = "启动G1仿真"
 
 [[external_programs.programs]]
+name = "g1_random_walk"
+display_name = "run_g1_random_walk"
+command = "python"
+args = [ "-m", "examples.embodied.g1.run_g1_random_walk",]
+description = "启动G1自主随机游走（AutoWalkPolicy，无键盘依赖）"
+
+[[external_programs.programs]]
 name = "zq_sa01"
 display_name = "zq_sa01"
 command = "python"
